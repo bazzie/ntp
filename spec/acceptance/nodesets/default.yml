@@ -1,0 +1,11 @@
+HOSTS:
+  sut.wildemann.nl:
+    roles:
+      -  agent
+    platform: el-7-x86_64
+    hypervisor : vsphere
+    ip: 192.168.1.177
+    snapshot: readyforbeaker
+CONFIG:
+  masterless: true 
+  type: foss
